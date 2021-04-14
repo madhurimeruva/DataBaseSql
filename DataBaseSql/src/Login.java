@@ -39,7 +39,9 @@ public class Login {
 			driver.findElement(By.xpath("//input[@name='password']")).sendKeys(password);
 
 			driver.findElement(By.xpath("//input[@name='btnLogin']")).click();
-
+                        
+			System.out.println(passwword);
+			
 			System.out.println(user + " | " + password + " |");
 
 			driver.quit();
