@@ -28,7 +28,7 @@ public class JdbcConnection {
 			driver.findElement(By.xpath("//input[@id='password']")).sendKeys(rs.getString("Description"));
 			System.out.println(rs.getString("CategoryID"));
 			System.out.println(rs.getString("CategoryName"));
-			System.out.println(rs.getString("Description"));
+			//System.out.println(rs.getString("Description"));
 
 			driver.findElement(By.cssSelector("#Login")).click();
 			driver.close();
